@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    /*
+    background-image: linear-gradient(to bottom right ,rgb(47, 255, 248) ,rgb(255, 56, 242), rgb(255, 43, 120),rgb(236, 255, 61));
+    */
+    background-image: url(Img/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    border: 1.5px solid rgb(255, 255, 255,.3);
+    background-image: transparent;
+    backdrop-filter: blur(20px);
+    
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    font-size: 300%;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#form-firebase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 60px;    
+}
+.element-cover{
+    height: 60px;
+    width: 100%;
+    margin: 10px 100px;
+    position: relative;
+}
+input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(0, 232, 249);
+    border-radius: 60px;
+    outline: none;
+    padding: 0px 35px 0px 45px ;
+    font-size: 20px;
+    color: rgb(255, 247, 159);
+    background-image: linear-gradient(to bottom , rgba(255, 0, 234, 0.2) , rgba(0, 187, 255, 0.2), rgba(0, 255, 110, 0.2));
+    box-shadow: 20px 10px 20px rgba(60, 0, 255, 0.085) inset ;
+}
+input::placeholder{
+    color: rgba(0, 224, 249, 0.3);
+}
+.element-cover svg{
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform:translateY(-50%);
+      filter: drop-shadow(2px 3px 8px );
+}
+#submit-btn{
+    width: 70%;   
+    margin-top: 30px; 
+}
+#btn{
+    background-image: linear-gradient(to bottom , rgba(255, 0, 234, 0.2) , rgba(0, 187, 255, 0.2), rgba(0, 255, 110, 0.2));
+    font-weight: 600;
+}
+#submit-btn svg{
+    filter: drop-shadow(2px 3px 8px );
+    position: absolute;
+    left: 75px;
+}
+.info h6{
+    color: rgba(255, 255, 255, 0.495);
+}
+
+
+
+
+
+
+
+
+
+
